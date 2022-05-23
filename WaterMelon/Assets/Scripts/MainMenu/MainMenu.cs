@@ -5,7 +5,7 @@ public class MainMenu : MonoBehaviour
 {
     public void Playgame()
     {
-        SceneManager.LoadScene("level");
+        SceneManager.LoadScene("Game");
 
     }
     public void Scoreboard()
