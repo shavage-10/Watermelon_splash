@@ -42,4 +42,13 @@ public class PlayerController : MonoBehaviour
     {
         rb.AddForce(new Vector3(xInput, 0f, zInput) * moveSpeed);
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "Obstacle")
+        {
+            PlayerManager.gameOver = true;
+            Debug.Log("hit");
+        }
+    }
 }
