@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public static AudioManager Instance;
     public Sound[] sounds;
     void Start()
     { 
@@ -14,7 +14,6 @@ public class AudioManager : MonoBehaviour
             s.source.clip = s.clip;
             s.source.loop = s.loop;
         }
-        PlaySound("BackgroundNoise");
     }
     public void PlaySound(string name)
     {
@@ -23,5 +22,10 @@ public class AudioManager : MonoBehaviour
             if (s.name == name)
                 s.source.Play();
         }
+    }
+
+    public void ChangeMasterVolume(float value)
+    {
+        AudioListener.volume = value;
     }
 }
