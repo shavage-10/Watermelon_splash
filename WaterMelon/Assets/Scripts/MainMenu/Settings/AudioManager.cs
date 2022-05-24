@@ -15,6 +15,7 @@ public class AudioManager : MonoBehaviour
             s.source.loop = s.loop;
         }
         PlaySound("Music");
+        PlaySound("Game_Music");
     }
     public void PlaySound(string name)
     {

@@ -608,6 +608,11 @@ MonoBehaviour:
     volume: 1
     loop: 0
     source: {fileID: 0}
+  - name: Music
+    clip: {fileID: 8300000, guid: 20f45499f4491924a8777a5d76f26b9e, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
 --- !u!1 &887279341
 GameObject:
   m_ObjectHideFlags: 0
