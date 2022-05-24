@@ -18,6 +18,7 @@ public class PlayerManager : MonoBehaviour
     {
         if (gameOver)
         {
+            FindObjectOfType<AudioManager>().PlaySound("Death");
             Time.timeScale = 0;
             gameOverPanel.SetActive(true);
         }

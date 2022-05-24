@@ -14,6 +14,7 @@ public class AudioManager : MonoBehaviour
             s.source.clip = s.clip;
             s.source.loop = s.loop;
         }
+        PlaySound("Music");
     }
     public void PlaySound(string name)
     {
