@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -682,16 +682,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tilePrefabs:
-  - {fileID: 5003391224255475894, guid: 8c7624d883c5bf44d9a823960aa7e371, type: 3}
-  - {fileID: 8647841321977018279, guid: ae923063753819e45bdb4a7b2388f175, type: 3}
-  - {fileID: 4149490102150594226, guid: f463ba5fea7b5cf4eb695a8f65a1670d, type: 3}
-  - {fileID: 1135611042775219461, guid: 3fd81a549d8caaf49b5fb69f496ee79b, type: 3}
-  - {fileID: 7633204562984049579, guid: 1dec9c4924197df4fb23e8795fc1605c, type: 3}
-  - {fileID: 3017677300032602466, guid: dcbd2de2e569198469f9a7e6921921cf, type: 3}
-  - {fileID: 8227564345228544168, guid: 4a9704dcb1115c446909476d24dfd3a3, type: 3}
+  - {fileID: 4346407285463567362, guid: 8c7624d883c5bf44d9a823960aa7e371, type: 3}
+  - {fileID: 6946720782122005061, guid: ae923063753819e45bdb4a7b2388f175, type: 3}
+  - {fileID: 8922752270811055273, guid: f463ba5fea7b5cf4eb695a8f65a1670d, type: 3}
+  - {fileID: 7828141880073126053, guid: 3fd81a549d8caaf49b5fb69f496ee79b, type: 3}
+  - {fileID: 6408280939698750003, guid: 1dec9c4924197df4fb23e8795fc1605c, type: 3}
+  - {fileID: 771816299288670097, guid: dcbd2de2e569198469f9a7e6921921cf, type: 3}
+  - {fileID: 7592088325372819134, guid: 4a9704dcb1115c446909476d24dfd3a3, type: 3}
   zSpawn: 0
-  tileLength: 40
-  numberofTiles: 3
+  tileLength: 10
+  numberofTiles: 6
   playerTransform: {fileID: 155154750}
 --- !u!1 &1107386362
 GameObject:

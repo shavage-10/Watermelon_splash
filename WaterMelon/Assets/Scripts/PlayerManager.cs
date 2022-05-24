@@ -20,7 +20,7 @@ public class PlayerManager : MonoBehaviour
         {
             Time.timeScale = 0;
             gameOverPanel.SetActive(true);
-            FindObjectOfType<AudioManager>().PlaySound("Death");
+            //FindObjectOfType<AudioManager>().PlaySound("Death");
         }
     }
 }
