@@ -15,13 +15,14 @@ public class TileManager : MonoBehaviour
 
     void Start()
     {
-        for(int i = 0; i < numberofTiles; i++) //looping through tiles
+        for (int i = 0; i < numberofTiles; i++) //looping through tiles
         {
             if (i == 0)
                 SpawnTile(0); //as default. The first tile should be the one without obstacles. 
             else
                 SpawnTile(Random.Range(0, tilePrefabs.Length)); //randomly chosen. 
         }
+        
     }
 
     // Update is called once per frame

@@ -16,7 +16,12 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
 
-        
+
+    }
+
+    private void Start()
+    {
+        FindObjectOfType<AudioManager>().PlaySound("Game_Music");
     }
 
     // Update is called once per frame
@@ -48,7 +53,7 @@ public class PlayerController : MonoBehaviour
         if (other.gameObject.tag == "Obstacle")
         {
             PlayerManager.gameOver = true;
-            Debug.Log("hit");
+            
         }
     }
 }
