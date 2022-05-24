@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 40329013923104870}
   - component: {fileID: 5733140528209459791}
   - component: {fileID: 3250526721671633257}
+  - component: {fileID: 1667125436311068698}
   m_Layer: 0
   m_Name: CHEESE_2
   m_TagString: Obstacle
@@ -28,7 +29,6 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.045409847, y: -0.12228854, z: -0.115654044}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6021888759870461759}
   m_RootOrder: 2
@@ -52,7 +52,6 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -83,6 +82,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1667125436311068698
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1572857706852351564}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.8713658, y: 0.6485932, z: 0.8661116}
+  m_Center: {x: -0.0033615977, y: 0.0003220886, z: 0.00044044852}
 --- !u!1 &2080232632469519064
 GameObject:
   m_ObjectHideFlags: 0
@@ -94,6 +106,7 @@ GameObject:
   - component: {fileID: 599937577769092158}
   - component: {fileID: 982025453329719844}
   - component: {fileID: 8150448128133462858}
+  - component: {fileID: 1154607201380413319}
   m_Layer: 0
   m_Name: PEPPERONI
   m_TagString: Obstacle
@@ -111,7 +124,6 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.1811305, y: 0.13958354, z: 0.11387389}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6021888759870461759}
   m_RootOrder: 3
@@ -135,7 +147,6 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -166,6 +177,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1154607201380413319
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2080232632469519064}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.30599928, y: 0.12178348, z: 0.30870336}
+  m_Center: {x: 0.000001758337, y: 0.000028712675, z: -0.000024192035}
 --- !u!1 &2458617776717185895
 GameObject:
   m_ObjectHideFlags: 0
@@ -177,6 +201,7 @@ GameObject:
   - component: {fileID: 5349515886413429116}
   - component: {fileID: 4985274708643907670}
   - component: {fileID: 1480071394182217251}
+  - component: {fileID: 4007970936753234487}
   m_Layer: 0
   m_Name: PEPPERONI_3
   m_TagString: Obstacle
@@ -194,7 +219,6 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.03978457, y: -0.16960385, z: -0.36156934}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6021888759870461759}
   m_RootOrder: 5
@@ -218,7 +242,6 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -249,6 +272,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &4007970936753234487
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2458617776717185895}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.20648319, y: 0.1475627, z: 0.14333558}
+  m_Center: {x: 0.000056631863, y: -0.00019473583, z: -0.000026226044}
 --- !u!1 &2507605415469575137
 GameObject:
   m_ObjectHideFlags: 0
@@ -260,6 +296,7 @@ GameObject:
   - component: {fileID: 397653988873195704}
   - component: {fileID: 7650220324582212509}
   - component: {fileID: 7463764725644151331}
+  - component: {fileID: 3074605460628018141}
   m_Layer: 0
   m_Name: CHEESE
   m_TagString: Obstacle
@@ -277,7 +314,6 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.04760129, y: 0.16960385, z: 0.36156934}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6021888759870461759}
   m_RootOrder: 1
@@ -301,7 +337,6 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -332,6 +367,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3074605460628018141
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2507605415469575137}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.9928918, y: 0.141453, z: 0.10623194}
+  m_Center: {x: -0.00055484474, y: 0.00042694435, z: -0.00037718564}
 --- !u!1 &3140798219065467493
 GameObject:
   m_ObjectHideFlags: 0
@@ -343,6 +391,7 @@ GameObject:
   - component: {fileID: 1015247934404276017}
   - component: {fileID: 2698587203911270489}
   - component: {fileID: 1543500429238704439}
+  - component: {fileID: 7374916908517396641}
   m_Layer: 0
   m_Name: CHEESE_2
   m_TagString: Obstacle
@@ -360,7 +409,6 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.045409847, y: -0.12228854, z: -0.115654044}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2720278075076544220}
   m_RootOrder: 2
@@ -384,7 +432,6 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -415,6 +462,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &7374916908517396641
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3140798219065467493}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.8713658, y: 0.6485932, z: 0.8661116}
+  m_Center: {x: -0.0033617169, y: 0.0003220886, z: 0.00044044852}
 --- !u!1 &3205618379779610801
 GameObject:
   m_ObjectHideFlags: 0
@@ -426,6 +486,7 @@ GameObject:
   - component: {fileID: 3919963502060973066}
   - component: {fileID: 127695263917065523}
   - component: {fileID: 9165518314371592904}
+  - component: {fileID: 4186534647747336973}
   m_Layer: 0
   m_Name: BREAD
   m_TagString: Obstacle
@@ -443,7 +504,6 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.04742393, y: -0.08311079, z: 0.014011625}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6021888759870461759}
   m_RootOrder: 0
@@ -467,7 +527,6 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -498,6 +557,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &4186534647747336973
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3205618379779610801}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0557864, y: 0.7405914, z: 1.0017743}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3224956637642477254
 GameObject:
   m_ObjectHideFlags: 0
@@ -509,6 +581,7 @@ GameObject:
   - component: {fileID: 555592088355371180}
   - component: {fileID: 8133646334238540601}
   - component: {fileID: 2195245155828058003}
+  - component: {fileID: 5229312627272611595}
   m_Layer: 0
   m_Name: PEPPERONI_2
   m_TagString: Obstacle
@@ -526,7 +599,6 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.1811305, y: 0.034884047, z: -0.11642697}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2720278075076544220}
   m_RootOrder: 4
@@ -550,7 +622,6 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -581,6 +652,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &5229312627272611595
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3224956637642477254}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.28924876, y: 0.15883613, z: 0.2545675}
+  m_Center: {x: -0.000047035515, y: 0.00002104789, z: 0.0000123903155}
 --- !u!1 &3353931387509464166
 GameObject:
   m_ObjectHideFlags: 0
@@ -608,7 +692,6 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2.5, y: -4.26, z: -0.2}
   m_LocalScale: {x: 1.5, y: 1.5, z: 0.5}
-  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4440502965948086487}
   - {fileID: 5582873824342547669}
@@ -643,6 +726,7 @@ GameObject:
   - component: {fileID: 2734199956416071040}
   - component: {fileID: 5708068183917935496}
   - component: {fileID: 7195430590837025153}
+  - component: {fileID: 6687363010287907977}
   m_Layer: 0
   m_Name: PEPPERONI_2
   m_TagString: Obstacle
@@ -660,7 +744,6 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.1811305, y: 0.034884047, z: -0.11642697}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6021888759870461759}
   m_RootOrder: 4
@@ -684,7 +767,6 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -715,6 +797,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6687363010287907977
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3915969240138930347}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.28924876, y: 0.15883613, z: 0.2545675}
+  m_Center: {x: -0.000047035515, y: 0.00002104789, z: 0.0000123903155}
 --- !u!1 &4465279186874788164
 GameObject:
   m_ObjectHideFlags: 0
@@ -726,6 +821,7 @@ GameObject:
   - component: {fileID: 1977193200322496915}
   - component: {fileID: 2041989174548527324}
   - component: {fileID: 239181453039106845}
+  - component: {fileID: 4393054266233031911}
   m_Layer: 0
   m_Name: PEPPERONI
   m_TagString: Obstacle
@@ -743,7 +839,6 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.1811305, y: 0.13958354, z: 0.11387389}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2720278075076544220}
   m_RootOrder: 3
@@ -767,7 +862,6 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -798,6 +892,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &4393054266233031911
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4465279186874788164}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.30599928, y: 0.12178348, z: 0.30870336}
+  m_Center: {x: 0.000001758337, y: 0.000028712675, z: -0.000024192035}
 --- !u!1 &6934656659458074422
 GameObject:
   m_ObjectHideFlags: 0
@@ -809,6 +916,7 @@ GameObject:
   - component: {fileID: 4869622581028771167}
   - component: {fileID: 7183129693547259985}
   - component: {fileID: 2871365986712824567}
+  - component: {fileID: 7413315850747673074}
   m_Layer: 0
   m_Name: PEPPERONI_3
   m_TagString: Obstacle
@@ -826,7 +934,6 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.03978457, y: -0.16960385, z: -0.36156934}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2720278075076544220}
   m_RootOrder: 5
@@ -850,7 +957,6 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -881,6 +987,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &7413315850747673074
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6934656659458074422}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.20648319, y: 0.1475627, z: 0.14333558}
+  m_Center: {x: 0.000056512654, y: -0.00019473583, z: -0.000026226044}
 --- !u!1 &7173616660523251034
 GameObject:
   m_ObjectHideFlags: 0
@@ -908,7 +1027,6 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2.5, y: -4.26, z: -0.2}
   m_LocalScale: {x: 1.5, y: 1.5, z: 0.5}
-  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3919963502060973066}
   - {fileID: 397653988873195704}
@@ -943,6 +1061,7 @@ GameObject:
   - component: {fileID: 5582873824342547669}
   - component: {fileID: 943520229002648046}
   - component: {fileID: 1047745257695028910}
+  - component: {fileID: 432866434709274562}
   m_Layer: 0
   m_Name: CHEESE
   m_TagString: Obstacle
@@ -960,7 +1079,6 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.04760129, y: 0.16960385, z: 0.36156934}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2720278075076544220}
   m_RootOrder: 1
@@ -984,7 +1102,6 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -1015,6 +1132,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &432866434709274562
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7563533890069347946}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.9928918, y: 0.141453, z: 0.10623194}
+  m_Center: {x: -0.00055484474, y: 0.00042694435, z: -0.00037718564}
 --- !u!1 &8390075908816171406
 GameObject:
   m_ObjectHideFlags: 0
@@ -1026,6 +1156,7 @@ GameObject:
   - component: {fileID: 4440502965948086487}
   - component: {fileID: 7610113007312390932}
   - component: {fileID: 1526703596617786032}
+  - component: {fileID: 1976016912113123938}
   m_Layer: 0
   m_Name: BREAD
   m_TagString: Obstacle
@@ -1043,7 +1174,6 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.04742393, y: -0.08311079, z: 0.014011625}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2720278075076544220}
   m_RootOrder: 0
@@ -1067,7 +1197,6 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -1098,6 +1227,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1976016912113123938
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8390075908816171406}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0557864, y: 0.7405914, z: 1.0017743}
+  m_Center: {x: -0.00000011920929, y: 0, z: 0}
 --- !u!1 &8647841321229551915
 GameObject:
   m_ObjectHideFlags: 0
@@ -1128,7 +1270,6 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 2}
-  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8647841321977018278}
   m_RootOrder: 0
@@ -1152,7 +1293,6 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -1236,7 +1376,6 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 2}
-  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8647841321229551914}
   - {fileID: 2720278075076544220}
