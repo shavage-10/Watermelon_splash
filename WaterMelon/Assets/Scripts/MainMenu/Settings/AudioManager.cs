@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
-    public static AudioManager Instance;
+    public AudioSource BGM;
+
     public Sound[] sounds;
     void Start()
     { 
@@ -14,8 +15,7 @@ public class AudioManager : MonoBehaviour
             s.source.clip = s.clip;
             s.source.loop = s.loop;
         }
-        PlaySound("Music");
-        PlaySound("Game_Music");
+ 
     }
     public void PlaySound(string name)
     {
@@ -26,6 +26,12 @@ public class AudioManager : MonoBehaviour
         }
     }
 
+    public void ChangeBGM(AudioClip music)
+    {
+        BGM.Stop();
+        BGM.clip = music;
+        BGM.Play();
+    }
     public void ChangeMasterVolume(float value)
     {
         AudioListener.volume = value;
