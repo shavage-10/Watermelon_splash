@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 566279154}
   - component: {fileID: 566279156}
-  - component: {fileID: 566279155}
   m_Layer: 0
   m_Name: Holder_Highscore
   m_TagString: Untagged
@@ -63,20 +62,6 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
---- !u!114 &566279155
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 566279153}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_HorizontalFit: 0
-  m_VerticalFit: 2
 --- !u!1 &807923711
 GameObject:
   m_ObjectHideFlags: 0
@@ -185,7 +170,7 @@ Transform:
   m_GameObject: {fileID: 8248211773744059309}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 163.78143, y: 272.65536, z: -4.183009}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 807923712}
   m_Father: {fileID: 0}
