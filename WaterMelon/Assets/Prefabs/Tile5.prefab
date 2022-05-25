@@ -5924,7 +5924,7 @@ GameObject:
   - component: {fileID: 2910030607441060946}
   - component: {fileID: 4423256081416852051}
   - component: {fileID: 4766769222071568028}
-  - component: {fileID: 3738072373380695301}
+  - component: {fileID: 8042402670495692787}
   m_Layer: 0
   m_Name: Donut (1)
   m_TagString: Obstacle
@@ -5940,7 +5940,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 435590435250622220}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 2.84, y: -4.28, z: 1.84}
+  m_LocalPosition: {x: 2.84, y: -4.67, z: 1.84}
   m_LocalScale: {x: 1364.1603, y: 1364.1603, z: 1364.1603}
   m_Children:
   - {fileID: 3021692392172428617}
@@ -5996,8 +5996,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3738072373380695301
-BoxCollider:
+--- !u!135 &8042402670495692787
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -6007,7 +6007,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.0011178756, y: 0.0011216546, z: 0.00038233816}
+  m_Radius: 0.0005608274
   m_Center: {x: -0.0000013695098, y: -0.0000062977188, z: 0.0000054879047}
 --- !u!1 &437742900381348942
 GameObject:
@@ -7559,7 +7559,7 @@ GameObject:
   - component: {fileID: 8362953159827775922}
   - component: {fileID: 1069782335298790293}
   - component: {fileID: 7660124600427442507}
-  - component: {fileID: 8053644370667511695}
+  - component: {fileID: 3620157410943027840}
   m_Layer: 0
   m_Name: Donut
   m_TagString: Obstacle
@@ -7575,7 +7575,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 545701497013381617}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -2.56, y: -4.63, z: -3.92}
+  m_LocalPosition: {x: -2.56, y: -4.67, z: -3.92}
   m_LocalScale: {x: 1364.1603, y: 1364.1603, z: 1364.1603}
   m_Children:
   - {fileID: 305411649983283396}
@@ -7631,8 +7631,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8053644370667511695
-BoxCollider:
+--- !u!135 &3620157410943027840
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -7642,7 +7642,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.0011178756, y: 0.0011216546, z: 0.00038233816}
+  m_Radius: 0.0005608274
   m_Center: {x: -0.0000013695098, y: -0.0000062977188, z: 0.0000054879047}
 --- !u!1 &547081248299804750
 GameObject:
@@ -10004,7 +10004,7 @@ GameObject:
   - component: {fileID: 305411649983283396}
   - component: {fileID: 3987214861624995532}
   - component: {fileID: 4310347552197464941}
-  - component: {fileID: 7741977359544380388}
+  - component: {fileID: 7960338647500497679}
   m_Layer: 0
   m_Name: Icing
   m_TagString: Untagged
@@ -10818,8 +10818,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7741977359544380388
-BoxCollider:
+--- !u!135 &7960338647500497679
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -10829,8 +10829,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.001387854, y: 0.0014166434, z: 0.00037986907}
-  m_Center: {x: 0.0000012074015, y: -0.0000062586323, z: 0.000088146044}
+  m_Radius: 0.0007083217
+  m_Center: {x: 0.0000012074015, y: -0.0000062586323, z: 0.00008814603}
 --- !u!1 &730084621709896045
 GameObject:
   m_ObjectHideFlags: 0
@@ -70726,7 +70726,7 @@ GameObject:
   - component: {fileID: 3021692392172428617}
   - component: {fileID: 8891090404770411394}
   - component: {fileID: 8010933819808299392}
-  - component: {fileID: 7866234139887355813}
+  - component: {fileID: 3395395186659353486}
   m_Layer: 0
   m_Name: Icing
   m_TagString: Untagged
@@ -71540,8 +71540,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7866234139887355813
-BoxCollider:
+--- !u!135 &3395395186659353486
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -71551,8 +71551,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.001387854, y: 0.0014166434, z: 0.00037986907}
-  m_Center: {x: 0.0000012074015, y: -0.0000062586323, z: 0.000088146044}
+  m_Radius: 0.0007083217
+  m_Center: {x: 0.0000012076343, y: -0.0000062587487, z: 0.000088146495}
 --- !u!1 &5253499610296176370
 GameObject:
   m_ObjectHideFlags: 0
