@@ -4,35 +4,30 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
-    public AudioSource BGM;
+    public static AudioManager Instance;
 
-    public Sound[] sounds;
-    void Start()
-    { 
-        foreach(Sound s in sounds)
-        {
-            s.source = gameObject.AddComponent<AudioSource>();
-            s.source.clip = s.clip;
-            s.source.loop = s.loop;
-        }
- 
-    }
-    public void PlaySound(string name)
+
+    [SerializeField] private AudioSource _musicSource, _effectsSource;
+
+    private void Awake()
     {
-        foreach (Sound s in sounds)
+        if (Instance == null)
         {
-            if (s.name == name)
-                s.source.Play();
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
         }
     }
 
-    public void ChangeBGM(AudioClip music)
+    public void PlaySound(AudioClip clip)
     {
-        BGM.Stop();
-        BGM.clip = music;
-        BGM.Play();
+        _effectsSource.PlayOneShot(clip);
     }
-    public void ChangeMasterVolume(float value)
+
+    public void ChangerMasterVolume(float value)
     {
         AudioListener.volume = value;
     }
