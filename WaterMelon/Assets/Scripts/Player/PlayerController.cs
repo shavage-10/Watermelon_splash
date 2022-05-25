@@ -19,10 +19,7 @@ public class PlayerController : MonoBehaviour
 
     }
 
-    private void Start()
-    {
-        FindObjectOfType<AudioManager>().PlaySound("Game_Music");
-    }
+    
 
     // Update is called once per frame
     void Update()
