@@ -1,3 +1,4 @@
+using Jesper.Scoreboards;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,9 +12,8 @@ public class PlayerController : MonoBehaviour
     public float zInput;
 
     public Text distancemoved;
-    float distanceunit = 0; 
-
-
+    public int distanceunit = 0;
+   
     // Start is called before the first frame update
     void Awake()
     {
@@ -49,18 +49,19 @@ public class PlayerController : MonoBehaviour
         rb.AddForce(new Vector3(xInput, 0f, zInput) * moveSpeed);
     }
 
-    private void OnTriggerEnter(Collider other)
+    public void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Obstacle")
         {
             PlayerManager.gameOver = true;
-            
         }
     }
 
-    void distance()
+    public void distance()
     {
-        distanceunit = distanceunit + 1;
+        distanceunit = distanceunit + 1 ;
+        
+        
         distancemoved.text = distanceunit.ToString();
     }
 }
