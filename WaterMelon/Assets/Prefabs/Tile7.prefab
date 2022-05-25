@@ -53479,7 +53479,7 @@ GameObject:
   - component: {fileID: 5025278327671870783}
   - component: {fileID: 4569725120706434840}
   - component: {fileID: 6628303772532557254}
-  - component: {fileID: 6806636090379479810}
+  - component: {fileID: 5946480599941365638}
   m_Layer: 0
   m_Name: Donut
   m_TagString: Obstacle
@@ -53551,8 +53551,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6806636090379479810
-BoxCollider:
+--- !u!135 &5946480599941365638
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -53562,8 +53562,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.0011178756, y: 0.0011216546, z: 0.00038233816}
-  m_Center: {x: -0.0000013695098, y: -0.0000062977188, z: 0.0000054879047}
+  m_Radius: 0.0005608274
+  m_Center: {x: -0.0000013695098, y: -0.000006297777, z: 0.0000054879047}
 --- !u!1 &3901756561943813315
 GameObject:
   m_ObjectHideFlags: 0
@@ -55438,7 +55438,7 @@ GameObject:
   - component: {fileID: 1860212045930287327}
   - component: {fileID: 923451696580536030}
   - component: {fileID: 8328487007010255377}
-  - component: {fileID: 167196755288715656}
+  - component: {fileID: 1757063206853475393}
   m_Layer: 0
   m_Name: Donut (1)
   m_TagString: Obstacle
@@ -55454,7 +55454,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4015463356926393217}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 2.93, y: -4.65, z: -4.63}
+  m_LocalPosition: {x: 2.93, y: -4.67, z: -4.63}
   m_LocalScale: {x: 1364.1603, y: 1364.1603, z: 1364.1603}
   m_Children:
   - {fileID: 1755692110032021956}
@@ -55510,8 +55510,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &167196755288715656
-BoxCollider:
+--- !u!135 &1757063206853475393
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -55521,8 +55521,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.0011178756, y: 0.0011216546, z: 0.00038233816}
-  m_Center: {x: -0.0000013695098, y: -0.0000062977188, z: 0.0000054879047}
+  m_Radius: 0.0005608274
+  m_Center: {x: -0.0000013695098, y: -0.000006297486, z: 0.0000054879047}
 --- !u!1 &4035056900269356124
 GameObject:
   m_ObjectHideFlags: 0
@@ -58936,7 +58936,7 @@ GameObject:
   - component: {fileID: 3859382379745326153}
   - component: {fileID: 497405170494921281}
   - component: {fileID: 748481366943754208}
-  - component: {fileID: 6540153510071656297}
+  - component: {fileID: 4891331292453507273}
   m_Layer: 0
   m_Name: Icing
   m_TagString: Untagged
@@ -59750,8 +59750,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6540153510071656297
-BoxCollider:
+--- !u!135 &4891331292453507273
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -59761,8 +59761,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.001387854, y: 0.0014166434, z: 0.00037986907}
-  m_Center: {x: 0.0000012074015, y: -0.0000062586323, z: 0.000088146044}
+  m_Radius: 0.0007083217
+  m_Center: {x: 0.0000012074015, y: -0.0000062586905, z: 0.00008814603}
 --- !u!1 &4302603106838222176
 GameObject:
   m_ObjectHideFlags: 0
@@ -100778,7 +100778,7 @@ Transform:
   m_GameObject: {fileID: 7592088324522362930}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1.5}
   m_Children: []
   m_Father: {fileID: 7592088325372819135}
   m_RootOrder: 0
@@ -117796,7 +117796,7 @@ GameObject:
   - component: {fileID: 1755692110032021956}
   - component: {fileID: 5391145243789969167}
   - component: {fileID: 6818098306024738061}
-  - component: {fileID: 6672144220659348264}
+  - component: {fileID: 8397564276448829730}
   m_Layer: 0
   m_Name: Icing
   m_TagString: Obstacle
@@ -118610,8 +118610,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6672144220659348264
-BoxCollider:
+--- !u!135 &8397564276448829730
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -118621,8 +118621,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.001387854, y: 0.0014166434, z: 0.00037986907}
-  m_Center: {x: 0.0000012074015, y: -0.0000062586323, z: 0.000088146044}
+  m_Radius: 0.0007083217
+  m_Center: {x: 0.0000012074015, y: -0.0000062586323, z: 0.00008814603}
 --- !u!1 &8744411144631974527
 GameObject:
   m_ObjectHideFlags: 0
