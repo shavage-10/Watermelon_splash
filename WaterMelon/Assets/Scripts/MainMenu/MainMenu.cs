@@ -21,5 +21,8 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene("Skins");
     }
 
-
+    public void Menu()
+    {
+        SceneManager.LoadScene("Menu");
+    }
 }
