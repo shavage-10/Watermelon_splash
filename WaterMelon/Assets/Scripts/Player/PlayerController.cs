@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class PlayerController : MonoBehaviour
 {
     public Rigidbody rb;
@@ -9,12 +9,16 @@ public class PlayerController : MonoBehaviour
 
     private float xInput;
     public float zInput;
-   
-   
+
+    public Text distancemoved;
+    float distanceunit = 0; 
+
+
     // Start is called before the first frame update
     void Awake()
     {
         rb = GetComponent<Rigidbody>();
+        InvokeRepeating("distance", 0, 1 / moveSpeed);
 
 
     }
@@ -52,5 +56,11 @@ public class PlayerController : MonoBehaviour
             PlayerManager.gameOver = true;
             
         }
+    }
+
+    void distance()
+    {
+        distanceunit = distanceunit + 1;
+        distancemoved.text = distanceunit.ToString();
     }
 }
