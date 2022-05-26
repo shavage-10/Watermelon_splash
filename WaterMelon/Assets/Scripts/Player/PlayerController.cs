@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
 
     private float xInput;
     public float zInput;
-
+    [SerializeField] private Scoreboard scoreboard;
     public Text distancemoved;
     public int distanceunit = 0;
    
@@ -54,6 +54,10 @@ public class PlayerController : MonoBehaviour
         if (other.gameObject.tag == "Obstacle")
         {
             PlayerManager.gameOver = true;
+            ScoreboardEntryData entry = new ScoreboardEntryData();
+            entry.entryScore = distanceunit;
+            entry.entryName = "Player";
+            scoreboard.Addentry(entry);
         }
     }
 

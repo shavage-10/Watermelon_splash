@@ -24,6 +24,11 @@ namespace Jesper.Scoreboards
         {
             Addentry(testEntryData);
         }
+
+        //public static void Addentry(ScoreboardEntryData scoreboardEntryData)
+        //{
+
+        //}
         public void Addentry(ScoreboardEntryData scoreboardEntryData) // The Method to add entries to the scoreboard logic
         {
             ScoreboardSaveData savedScores = GetSavedScores();
