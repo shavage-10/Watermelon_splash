@@ -20,11 +20,11 @@ namespace Jesper.Scoreboards
 
         }
         [ContextMenu("Add test entry")] 
-        public void AddTestEntry()
+        public void AddTestEntry() // a method to test if the scoreboard works
         {
             Addentry(testEntryData);
         }
-        public void Addentry(ScoreboardEntryData scoreboardEntryData)
+        public void Addentry(ScoreboardEntryData scoreboardEntryData) // The Method to add entries to the scoreboard logic
         {
             ScoreboardSaveData savedScores = GetSavedScores();
             bool scoreAdded = false;
@@ -53,7 +53,7 @@ namespace Jesper.Scoreboards
         }
 
          
-        private void UpdateUI(ScoreboardSaveData savedScores)
+        private void UpdateUI(ScoreboardSaveData savedScores) //Taking the scoreboard and updating the UI to match the data collected from the logic
         {
             foreach(Transform child in highscoresHolderTransform)
             {
@@ -65,7 +65,7 @@ namespace Jesper.Scoreboards
                     GetComponent<ScoreboardEntryUI>().Initialise(highscore);
             }
         }
-        private ScoreboardSaveData GetSavedScores()
+        private ScoreboardSaveData GetSavedScores() // A method which looks if a savefile is precent, reads the whole file and saves it into the json string and convert it into the correct datatype.</summary>
         {
             if (!File.Exists(SavePath))
             {
@@ -78,7 +78,7 @@ namespace Jesper.Scoreboards
                 return JsonUtility.FromJson<ScoreboardSaveData>(json);
             }
         }
-        private void SaveScore(ScoreboardSaveData scoreboardSaveData)
+        private void SaveScore(ScoreboardSaveData scoreboardSaveData) // a method which writes the whole file with the help of the SavePath function
         {
             using (StreamWriter stream = new StreamWriter(SavePath))
             {

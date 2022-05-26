@@ -2,7 +2,7 @@ using System;
 namespace Jesper.Scoreboards
 {
     [Serializable]
-    public class ScoreboardEntryData
+    public struct ScoreboardEntryData
     {
         public string entryName;
         public int entryScore;
