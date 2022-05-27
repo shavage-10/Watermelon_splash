@@ -32,13 +32,14 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         //input and animations
-        ProcessInputs();
+        
 
     }
 
     private void FixedUpdate()
     {
         //Movement
+        ProcessInputs();
         Move();
     }
 
