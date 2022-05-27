@@ -249,10 +249,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13fa2feeb9932ba4681fc961fdfae873, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scoreboard: {fileID: 1251414177}
+  audioManager: {fileID: 1569702647}
   rb: {fileID: 0}
   moveSpeed: 3
   zInput: 0.2
-  scoreboard: {fileID: 1251414177}
   distancemoved: {fileID: 2043468870}
   distanceunit: 0
 --- !u!114 &155154752
@@ -1052,7 +1053,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1ba8e7500fc799459c44703bce9421b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _musicSource: {fileID: 2067560051}
+  musicSource: {fileID: 2067560051}
   _effectsSource: {fileID: 1653758575}
 --- !u!4 &1569702648
 Transform:
@@ -1097,8 +1098,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: 548fb9c67504a184ba455194acd3bd02, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -1330,6 +1331,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4454099929eab9c439fc7323dcd3c884, type: 3}
+--- !u!1 &1795883338
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1795883339}
+  - component: {fileID: 1795883340}
+  m_Layer: 0
+  m_Name: PlaySound
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1795883339
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1795883338}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1977632238}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1795883340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1795883338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2478cc3201d61f5479b7dc3fa66064fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _clip: {fileID: 8300000, guid: 548fb9c67504a184ba455194acd3bd02, type: 3}
 --- !u!1 &1977632237
 GameObject:
   m_ObjectHideFlags: 0
@@ -1362,6 +1407,7 @@ RectTransform:
   - {fileID: 1547045759}
   - {fileID: 399488296}
   - {fileID: 1552346908}
+  - {fileID: 1795883339}
   m_Father: {fileID: 1107386366}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

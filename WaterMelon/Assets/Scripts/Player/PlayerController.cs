@@ -5,20 +5,23 @@ using UnityEngine;
 using UnityEngine.UI;
 public class PlayerController : MonoBehaviour
 {
+    [SerializeField] private Scoreboard scoreboard;
+    [SerializeField] private AudioManager audioManager;
     public Rigidbody rb;
     public float moveSpeed = 10f;
-
     private float xInput;
     public float zInput;
-    [SerializeField] private Scoreboard scoreboard;
     public Text distancemoved;
     public int distanceunit = 0;
-   
+    
+
     // Start is called before the first frame update
     void Awake()
     {
+        audioManager.musicSource = gameObject.AddComponent<AudioManager>().musicSource;
         rb = GetComponent<Rigidbody>();
         InvokeRepeating("distance", 0, 1 / moveSpeed);
+        
 
 
     }
