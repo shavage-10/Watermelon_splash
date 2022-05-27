@@ -18,7 +18,6 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        audioManager.musicSource = gameObject.AddComponent<AudioManager>().musicSource;
         rb = GetComponent<Rigidbody>();
         InvokeRepeating("distance", 0, 1 / moveSpeed);
         
