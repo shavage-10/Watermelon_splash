@@ -19,16 +19,6 @@ namespace Jesper.Scoreboards
             SaveScore(savedScores);
 
         }
-        [ContextMenu("Add test entry")] 
-        public void AddTestEntry() // a method to test if the scoreboard works
-        {
-            Addentry(testEntryData);
-        }
-
-        //public static void Addentry(ScoreboardEntryData scoreboardEntryData)
-        //{
-
-        //}
         public void Addentry(ScoreboardEntryData scoreboardEntryData) // The Method to add entries to the scoreboard logic
         {
             ScoreboardSaveData savedScores = GetSavedScores();
