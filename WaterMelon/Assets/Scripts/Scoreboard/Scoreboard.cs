@@ -8,8 +8,6 @@ namespace Jesper.Scoreboards
         [SerializeField] private int MaxScoreboardEntries = 5;
         [SerializeField] private Transform highscoresHolderTransform = null;
         [SerializeField] private GameObject scoreboardEntryObject = null;
-        [Header("Test")]
-        [SerializeField] private ScoreboardEntryData testEntryData = new ScoreboardEntryData();
 
         private string SavePath => $"{Application.persistentDataPath}/highscores.json";
         private void Start()
