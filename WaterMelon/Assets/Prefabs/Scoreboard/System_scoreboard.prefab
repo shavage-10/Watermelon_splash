@@ -143,7 +143,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!1 &8248211773744059309
 GameObject:
   m_ObjectHideFlags: 0
@@ -191,6 +191,3 @@ MonoBehaviour:
   MaxScoreboardEntries: 5
   highscoresHolderTransform: {fileID: 566279154}
   scoreboardEntryObject: {fileID: 8819759245039091592, guid: 2a120fb8291a0d2439818eb020cfe92a, type: 3}
-  testEntryData:
-    entryName: Shavage
-    entryScore: 420
