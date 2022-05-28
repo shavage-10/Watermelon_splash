@@ -136,7 +136,6 @@ GameObject:
   - component: {fileID: 155154748}
   - component: {fileID: 155154747}
   - component: {fileID: 155154746}
-  - component: {fileID: 155154752}
   - component: {fileID: 155154751}
   m_Layer: 0
   m_Name: Ball
@@ -254,21 +253,9 @@ MonoBehaviour:
   rb: {fileID: 0}
   moveSpeed: 3
   zInput: 0.2
+  threshold: -20
   distancemoved: {fileID: 2043468870}
   distanceunit: 0
---- !u!114 &155154752
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 155154745}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 561efb42632ec9e41b6d22967ad95474, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  threshold: -20
 --- !u!1 &389583623
 GameObject:
   m_ObjectHideFlags: 0

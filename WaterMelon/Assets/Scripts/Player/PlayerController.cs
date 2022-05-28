@@ -11,8 +11,10 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed = 10f;
     private float xInput;
     public float zInput;
+    public float threshold = -20f;
     public Text distancemoved;
     public int distanceunit = 0;
+
     
 
     // Start is called before the first frame update
@@ -30,8 +32,11 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //input and animations
-        
+        if (rb.transform.position.y < threshold)
+        {
+            PlayerManager.gameOver = true;
+        }
+
 
     }
 
