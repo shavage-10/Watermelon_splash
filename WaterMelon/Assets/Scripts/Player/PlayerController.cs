@@ -6,7 +6,8 @@ using UnityEngine.UI;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] private Scoreboard scoreboard;
-    [SerializeField] private AudioManager audioManager;
+    [SerializeField] private AudioSource source;
+
     public Rigidbody rb;
     public float moveSpeed = 10f;
     private float xInput;
@@ -22,12 +23,12 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         InvokeRepeating("distance", 0, 1 / moveSpeed);
-        
+        AudioManager.Instance.musicSource = source;
+
 
 
     }
 
-    
 
     // Update is called once per frame
     void Update()
