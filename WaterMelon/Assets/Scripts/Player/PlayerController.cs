@@ -24,12 +24,7 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         InvokeRepeating("distance", 0, 1 / moveSpeed);
         AudioManager.Instance.musicSource = source;
-
-
-
     }
-
-
     // Update is called once per frame
     void Update()
     {
